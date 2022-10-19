@@ -1,0 +1,333 @@
+.navbars-admin {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 50px;
+    background-color: #000;
+}
+
+.navbars-admin .icon-setting {
+    height: 25px;
+}
+
+/* Sidebar  */
+.sidebar-admin-dashboard {
+    visibility: hidden;
+    z-index: 10;
+    background-color: #769393;
+    position: fixed;
+    width: 0;
+    height: 100%;
+    transition: all 0.6s;
+    display: none;
+}
+
+.icon-sidebar-admin {
+    display: none;
+}
+
+.wrapper-navbar-admin {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+}
+
+.route-dashboard-admin {
+    font-size: 18px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    float: right;
+}
+
+.route-dashboard-admin {
+    overflow: hidden;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    float: right;
+}
+.route-dashboard-admin .icon {
+    width: 20px;
+}
+.route-chart-admin {
+    overflow: hidden;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    float: right;
+}
+.route-chart-admin .icon {
+    width: 20px;
+}
+.route-order-admin {
+    overflow: hidden;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    float: right;
+}
+.route-order-admin .icon {
+    width: 20px;
+}
+.route-products-admin {
+    overflow: hidden;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    float: right;
+}
+.route-products-admin .icon {
+    width: 20px;
+}
+.route-user-admin {
+    overflow: hidden;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    float: right;
+}
+.route-user-admin .icon {
+    width: 20px;
+}
+
+.route-logout-admin {
+    overflow: hidden;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    float: right;
+}
+.route-logout-admin .icon {
+    width: 20px;
+}
+
+.route-dashboard-admin.is-open-dashboard {
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    float: right;
+    background-color: #f2f3f5;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.route-chart-admin.is-open-dashboard {
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    float: right;
+    background-color: #f2f3f5;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.route-order-admin.is-open-dashboard {
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    float: right;
+    background-color: #f2f3f5;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.route-products-admin.is-open-dashboard {
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    float: right;
+    background-color: #f2f3f5;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.route-user-admin.is-open-dashboard {
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    float: right;
+    background-color: #f2f3f5;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.route-logout-admin.is-open-dashboard {
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    float: right;
+    background-color: #f2f3f5;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.route-dashboard-admin:hover {
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: all 1s;
+    background-color: #000;
+    color: #fff;
+}
+
+.route-chart-admin:hover {
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: all 1s;
+    background-color: #000;
+    color: #fff;
+}
+
+.route-order-admin:hover {
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: all 1s;
+    background-color: #000;
+    color: #fff;
+}
+.route-products-admin:hover {
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: all 1s;
+    background-color: #000;
+    color: #fff;
+}
+.route-user-admin:hover {
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: all 1s;
+    background-color: #000;
+    color: #fff;
+}
+.route-logout-admin:hover {
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: all 1s;
+    background-color: #000;
+    color: #fff;
+}
+
+/* tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .nav-admin-dashboard {
+        display: none;
+    }
+    .display-admin-dashboard {
+        width: 100%;
+    }
+    .icon-sidebar-admin {
+        display: block;
+    }
+    .name-admin-dashboard {
+        display: none;
+    }
+    .nav-admin-dashboard {
+        display: none;
+    }
+    .display-admin-dashboard {
+        width: 100%;
+    }
+    .sidebar-admin-dashboard {
+        visibility: hidden;
+        z-index: 10;
+        position: fixed;
+        width: 0;
+        height: 100%;
+        transition: all 0.6s;
+        display: block;
+    }
+
+    .sidebar-admin-dashboard.open-sidebar-admin {
+        visibility: visible;
+        position: fixed;
+        width: 250px;
+        height: 100%;
+    }
+}
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+    .nav-admin-dashboard {
+        display: none;
+    }
+    .display-admin-dashboard {
+        width: 100%;
+    }
+    .icon-sidebar-admin {
+        display: block;
+    }
+    .name-admin-dashboard {
+        display: none;
+    }
+    .nav-admin-dashboard {
+        display: none;
+    }
+    .display-admin-dashboard {
+        width: 100%;
+    }
+    .sidebar-admin-dashboard {
+        z-index: 10;
+        position: fixed;
+        width: 0;
+        height: 100%;
+        transition: all 0.6s;
+        display: block;
+    }
+
+    .sidebar-admin-dashboard.open-sidebar-admin {
+        visibility: visible;
+        position: fixed;
+        width: 250px;
+        height: 100%;
+    }
+}

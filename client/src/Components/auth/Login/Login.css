@@ -1,0 +1,32 @@
+.img-left {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-register {
+    width: 30%;
+}
+.img-nike {
+    width: 50px;
+}
+
+/* tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .content-left {
+        display: none;
+    }
+    .wrapper-register {
+        width: 50%;
+    }
+}
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+    .content-left {
+        display: none;
+    }
+    .wrapper-register {
+        padding: 0 30px;
+        width: 100%;
+    }
+}

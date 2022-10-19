@@ -1,0 +1,18 @@
+.morenike-content {
+    position: relative;
+}
+
+.btn-morenike {
+    font-weight: 500;
+    width: 90px;
+    height: 37px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.btn-morenike:hover {
+    background-color: #000;
+    color: #fff;
+}

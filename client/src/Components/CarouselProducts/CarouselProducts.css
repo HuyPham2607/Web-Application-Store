@@ -1,0 +1,32 @@
+.card .card-top .img-carousel {
+    width: 100%;
+}
+
+.slick-arrow.slick-prev {
+    border-radius: 30px;
+    background-color: #757575;
+}
+.slider-carousel-products .headding {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.slick-arrow.slick-next {
+    border-radius: 30px;
+
+    background-color: #757575;
+}
+
+/* tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .slick-dots {
+        display: none;
+    }
+}
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+    .slick-dots {
+        display: none;
+    }
+}

@@ -1,0 +1,96 @@
+.btn-checkout {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn-guest-checkout {
+    height: 60px;
+    border-radius: 100px;
+    background-color: rgb(245, 245, 245);
+    outline: none;
+    border: none;
+}
+
+.btn-member-checkout {
+    height: 60px;
+    border-radius: 100px;
+    background-color: rgb(245, 245, 245);
+    outline: none;
+    border: none;
+}
+
+.imgurl {
+    width: 100%;
+}
+
+.bag .bag-item {
+    display: none;
+}
+
+.cart .headline-1 {
+    font-size: 19px;
+}
+.cart .headline-2 {
+    font-size: 19px;
+}
+
+.cart .headline-price {
+    padding-top: 3px;
+    font-size: 18px;
+}
+/* tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .bag {
+        height: 100px;
+        text-align: center;
+    }
+    .bag .bag-item {
+        display: block;
+    }
+}
+
+.cart-color-product {
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.headline-name-cart {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.headline-title-cart {
+    font-size: 18px;
+}
+.headline-price-cart {
+    font-size: 18px;
+}
+
+.headline-size-cart {
+    font-size: 18px;
+}
+.headline-color-cart {
+    font-size: 17px;
+}
+
+.headline-trash-cart {
+    font-size: 20px;
+}
+
+.btn-member-checkout {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+    .bag {
+        height: 100px;
+        text-align: center;
+    }
+    .bag .bag-item {
+        display: block;
+    }
+}

@@ -1,0 +1,70 @@
+.content-home .wrapper-content {
+    margin: 20px 0;
+}
+
+.content-home {
+    margin: 0;
+}
+
+.content-home .headding {
+    font-family: 'Nike Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.content-home .center {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.content-home .btn-bottom {
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #111;
+    color: #fff;
+}
+
+@media screen and (min-width: 1023px) {
+    .content-home .wrapper-content {
+        margin: 20px 0;
+        text-align: center;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .content-home {
+        padding: 0;
+    }
+    .content-home .wrapper-content {
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .content-home .headding {
+        font-size: 40px;
+    }
+
+    .content-home .center {
+        font-size: 18px;
+    }
+}
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 739px) {
+    .content-home .headding {
+        font-size: 30px;
+    }
+
+    .content-home .center {
+        font-size: 16px;
+    }
+}

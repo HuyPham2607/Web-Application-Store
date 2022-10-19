@@ -1,0 +1,90 @@
+.wrapper-sidbar-admin {
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: rgba(0, 1, 0, 0.15) 2px 2px 3px;
+}
+
+.wrapper-sidbar-admin .underline {
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    height: 2px;
+}
+
+.wrapper-sidbar-admin .name-admin {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wrapper-sidbar-admin .icon-sidebar-dashboard-admin {
+    width: 10%;
+    font-size: 18px;
+}
+
+.wrapper-sidbar-admin .navsidebar-admin-dashboard {
+    width: 90%;
+    font-size: 18px;
+}
+.wrapper-sidbar-admin .navsidebar-admin-chart {
+    width: 90%;
+    font-size: 18px;
+}
+.wrapper-sidbar-admin .navsidebar-admin-order {
+    width: 90%;
+    font-size: 18px;
+}
+.wrapper-sidbar-admin .navsidebar-admin-products {
+    width: 90%;
+    font-size: 18px;
+}
+.wrapper-sidbar-admin .navsidebar-admin-user {
+    width: 90%;
+    font-size: 18px;
+}
+
+.wrapper-sidbar-admin .navsidebar-admin-logout {
+    width: 90%;
+    font-size: 18px;
+}
+.wrapper-sidbar-admin .navsidebar-admin-dashboard:hover {
+    border-radius: 10px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.wrapper-sidbar-admin .navsidebar-admin-chart:hover {
+    border-radius: 10px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.wrapper-sidbar-admin .navsidebar-admin-order:hover {
+    border-radius: 10px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.wrapper-sidbar-admin .navsidebar-admin-products:hover {
+    border-radius: 10px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.wrapper-sidbar-admin .navsidebar-admin-user:hover {
+    border-radius: 10px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.wrapper-sidbar-admin .navsidebar-admin-logout:hover {
+    border-radius: 10px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
