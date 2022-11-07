@@ -12,7 +12,7 @@ import Footer from '../../layout/Footer/Footer.jsx';
 function Login() {
     const dispatch = useDispatch();
     const { loginUser } = useContext(AuthContext);
-
+    const test2 = () => {};
     const [loginForm, setLoginForm] = useState({
         email: '',
         password: '',
